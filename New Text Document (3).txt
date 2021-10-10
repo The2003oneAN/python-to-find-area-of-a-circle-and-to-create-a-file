@@ -1,0 +1,17 @@
+
+to calculate the area of the circle
+
+>>> pi=3.14
+>>> r=float(input("enter the radius of a circle"))
+enter the radius of a circle 1.1
+>>> area=pi*r*r
+>>> print("area of a circle=%.2f"%area)
+area of a circle=3.80
+
+
+to create file
+
+filename = input("Input the Filename: ")
+f_extns = filename.split(".")
+print ("The extension of the file is : " + repr(f_extns[-1]))Input the Filename:  abc.python
+The extension of the file is : 'python' 
